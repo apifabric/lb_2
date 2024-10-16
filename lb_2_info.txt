@@ -1,0 +1,6 @@
+Create a system with customers, orders, items and products.
+Include a notes field for orders.
+Use Logic Bank constraint to enforce the Check Credit requirements:
+
+Customer.balance <= Customer.credit_limit
+Customer.balance >= 0
